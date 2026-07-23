@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCALES - Portal Resmi SMPN 1 Ciasem</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Dynamic Mouse Glow Overlay -->
+    <div class="mouse-glow" id="mouseGlow"></div>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader-content">
+            <div class="loader-logo">SCALES</div>
+            <div class="loader-bar">
+                <div class="loader-progress" id="loaderProgress"></div>
+            </div>
+            <p class="loader-text">MEMUAT PORTAL EKOSISTEM...</p>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-brand">
+                <span class="brand-text">SCALES</span>
+            </a>
+            
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#hero" class="active">Beranda</a></li>
+                    <li><a href="#tentang-scales">Tentang SCALES</a></li>
+                    <li><a href="#profil">Profil Sekolah</a></li>
+                    <li><a href="#pengajar">Profil Pengajar</a></li>
+                    <li><a href="#matpel">Mata Pelajaran</a></li>
+                    <li><a href="#ekosistem">Ekosistem Digital</a></li>
+                </ul>
+            </nav>
+
+            <a href="https://sites.google.com/view/smp-negeri-1-ciasem/beranda" target="_blank" rel="noopener noreferrer" class="btn btn-gold btn-nav">
+                Google Site Utama
+            </a>
+
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- SECTION 1: HERO (BERANDA) -->
+    <section class="hero" id="hero">
+        <div class="aurora-container">
+            <div class="aurora blob-1"></div>
+            <div class="aurora blob-2"></div>
+            <div class="aurora blob-3"></div>
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <div class="badge-pill">
+                <span class="pulse-dot"></span>
+                <span>SMP NEGERI 1 CIASEM</span>
+            </div>
+            <h1 class="hero-title">SCALES</h1>
+            <p class="hero-subtitle">SpensaCiS Collaborative and Engaging Learning Environment System</p>
+            <p class="hero-description">
+                Inovasi pembelajaran digital dari SMPN 1 Ciasem yang dirancang untuk menciptakan lingkungan belajar yang kolaboratif, interaktif, dan menarik bagi seluruh warga sekolah.
+            </p>
+            <div class="hero-cta-group">
+                <a href="#tentang-scales" class="btn btn-gold">Jelajahi SCALES</a>
+                <a href="#pengajar" class="btn btn-glass">Profil Pengajar</a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>GULIR KE BAWAH</span>
+        </div>
+    </section>
+
+    <!-- SECTION NARASI RESMI: TENTANG & KEUNGGULAN SCALES -->
+    <section class="section scales-info-section" id="tentang-scales">
+        <div class="container">
+            <!-- Penjelasan Apa Itu SCALES -->
+            <div class="glass-panel" style="padding: 2.5rem; margin-bottom: 2.5rem; border-radius: 20px;">
+                <div class="section-header" style="text-align: left; margin-bottom: 1.5rem;">
+                    <span class="section-tag">OVERVIEW PLATFORM</span>
+                    <h2>Apa Itu SCALES?</h2>
+                </div>
+                <p style="font-size: 1.1rem; line-height: 1.8; color: rgba(255, 255, 255, 0.9);">
+                    <strong>SCALES</strong> adalah platform pembelajaran terpadu yang menggabungkan semua mata pelajaran dalam satu sistem digital, memfasilitasi pembelajaran berbasis teknologi yang mendukung kolaborasi antara siswa dan guru. Setiap mata pelajaran memiliki situs khusus yang menyediakan materi belajar, tugas, video pembelajaran, diskusi interaktif, dan berbagai sumber daya lainnya yang dapat diakses kapan saja dan di mana saja.
+                </p>
+            </div>
+
+            <!-- Keunggulan SCALES -->
+            <div class="section-header center" style="margin-bottom: 2rem;">
+                <span class="section-tag">NILAI UNGGUL</span>
+                <h2>Keunggulan SCALES</h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="glass-card feature-card">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD54F" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3>Kolaborasi Dinamis</h3>
+                    <p>SCALES mendorong kolaborasi yang lebih erat antara siswa dan guru melalui forum diskusi, proyek bersama, dan feedback yang konstruktif.</p>
+                </div>
+
+                <div class="glass-card feature-card">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD54F" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <h3>Pembelajaran Menarik & Interaktif</h3>
+                    <p>Dengan beragam konten multimedia dan alat interaktif, siswa dapat belajar dengan cara yang lebih menyenangkan dan efektif.</p>
+                </div>
+
+                <div class="glass-card feature-card">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD54F" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                    </div>
+                    <h3>Akses Mudah & Terintegrasi</h3>
+                    <p>Semua portal mata pelajaran terintegrasi dalam satu platform utama Google Site sekolah, memudahkan akses ke berbagai sumber daya belajar.</p>
+                </div>
+
+                <div class="glass-card feature-card">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD54F" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    </div>
+                    <h3>Dukungan Pembelajaran Mandiri</h3>
+                    <p>Siswa dapat belajar sesuai kecepatan dan gaya belajar mereka masing-masing dengan akses ke materi yang disusun secara sistematis.</p>
+                </div>
+            </div>
+
+            <!-- Banner Penutup Narasi -->
+            <div class="glass-panel center" style="padding: 2rem; margin-top: 2.5rem; border-radius: 20px; background: rgba(255, 213, 79, 0.08); border: 1px solid rgba(255, 213, 79, 0.3);">
+                <p style="font-size: 1.2rem; font-weight: 600; color: #ffd54f; margin: 0;">
+                    "Mari bersama-sama wujudkan lingkungan belajar yang inovatif, inspiratif, dan mendukung potensi terbaik setiap siswa melalui SCALES! Selamat belajar dan berkolaborasi!"
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: PROFIL SEKOLAH (VISI & MISI RESMI) -->
+    <section class="section profil-section" id="profil">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">IDENTITAS SEKOLAH</span>
+                <h2>Profil SMPN 1 Ciasem</h2>
+                <p>Membentuk generasi unggul, berkarakter, inovatif, dan berwawasan lingkungan berbasis teknologi digital.</p>
+            </div>
+
+            <!-- Sambutan Kepala Sekolah -->
+            <div class="glass-panel sambutan-card" style="margin-bottom: 3rem;">
+                <div class="sambutan-grid">
+                    <div class="sambutan-foto">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80" alt="Kepala Sekolah SMPN 1 Ciasem" class="foto-kepsek">
+                        <div class="badge-kepsek">Kepala Sekolah</div>
+                    </div>
+                    <div class="sambutan-teks">
+                        <span class="quote-mark">“</span>
+                        <h3>Sambutan Kepala Sekolah</h3>
+                        <p class="quote-text">
+                            "Selamat datang di portal SCALES SMP Negeri 1 Ciasem. Digitalisasi pendidikan bukan sekadar mengikuti tren, tetapi merupakan komitmen kami untuk menghadirkan pengalaman belajar yang inklusif, interaktif, dan relevan dengan tantangan zaman."
+                        </p>
+                        <h4 class="nama-kepsek">Tim Manajemen Sekolah</h4>
+                        <span class="sub-kepsek">SMP Negeri 1 Ciasem</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Visi & Misi Grid -->
+            <div class="visi-misi-grid" style="display: grid; grid-template-columns: 1fr; gap: 2rem;">
+                
+                <!-- Visi Card -->
+                <div class="glass-card visi-card" style="padding: 2.5rem; border-left: 5px solid #FFD54F;">
+                    <div class="card-icon" style="margin-bottom: 1rem;">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#FFD54F" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/><circle cx="12" cy="12" r="3"/></svg>
+                    </div>
+                    <h3 style="font-size: 1.8rem; margin-bottom: 1rem;">VISI SMPN 1 Ciasem</h3>
+                    <blockquote style="font-size: 1.25rem; line-height: 1.7; font-weight: 600; color: #ffd54f; font-style: italic; margin: 0;">
+                        "Mewujudkan Warga Sekolah yang Religius, Berakhlakulkarimah, Unggul Dalam Prestasi dan Digitalisasi serta Lingkungan yang Nyaman dan Tertata (REAKSI NYATA)."
+                    </blockquote>
+                </div>
+
+                <!-- Misi Card -->
+                <div class="glass-card misi-card" style="padding: 2.5rem; border-left: 5px solid #FFD54F;">
+                    <div class="card-icon" style="margin-bottom: 1rem;">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#FFD54F" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <h3 style="font-size: 1.8rem; margin-bottom: 1.5rem;">MISI SMPN 1 Ciasem</h3>
+                    
+                    <ul class="misi-list" style="display: flex; flex-direction: column; gap: 0.8rem; padding-left: 1.2rem; color: rgba(255,255,255,0.9); line-height: 1.6;">
+                        <li>Melaksanakan pembiasaan budaya positif serta pembiasaan pengamalan kegiatan keagamaan sesuai dengan agama dan keyakinan masing-masing.</li>
+                        <li>Melaksanakan penguatan pendidikan karakter secara terpadu yang melibatkan semua warga sekolah sesuai dengan profil pelajar pancasila.</li>
+                        <li>Melaksanakan proses pembelajaran akademis maupun non akademis yang berorientasi pada siswa yang aktif, inovatif, kreatif, efektif, dan efisien serta menyenangkan (PAIKEM).</li>
+                        <li>Memfasilitasi murid untuk mengembangkan nalar kritisnya melalui kegiatan literasi dan numerasi.</li>
+                        <li>Memfasilitasi kegiatan gelar karya untuk menumbuhkembangkan kreatifitas peserta didik dalam berwirausaha.</li>
+                        <li>Melaksanakan pembinaan terhadap warga sekolah akan tugasnya sehingga dapat melaksanakan dengan penuh rasa tanggung jawab dan dedikasi yang tinggi.</li>
+                        <li>Memfasilitasi pelatihan Tenaga Pendidik dan Kependidikan untuk mengikuti pelatihan-pelatihan baik yang diselenggarakan oleh sekolah maupun di luar sekolah (Dinas Pendidikan dan lain-lain) dalam meningkatkan kompetensinya.</li>
+                        <li>Menciptakan lingkungan sekolah sebagai tempat perkembangan intelektual, sosial, emosional, keterampilan, dan pengembangan budaya lokal dalam kebhinekaan global.</li>
+                        <li>Mengoptimalkan penggunaan alat-alat TIK yang dimiliki sekolah untuk pembelajaran dan pelayanan sekolah.</li>
+                        <li>Menjamin hak belajar setiap anak tanpa terkecuali termasuk anak yang berkebutuhan khusus (inklusi) dalam proses pembelajaran yang menjunjung tinggi nilai gotong-royong.</li>
+                        <li>Menciptakan partisipasi aktif orang tua dan masyarakat dalam keberagaman yang mewadahi kreativitas peserta didik yang berjiwa kolaboratif.</li>
+                        <li>Menciptakan atmosfer ruang kelas yang aman dan nyaman serta lingkungan sekolah yang hijau, rindang dan ramah terhadap warga sekolah.</li>
+                        <li>Melaksanakan kegiatan penghijauan, kebersihan dan pemeliharaan lingkungan di sekolah.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: PROFIL PENGAJAR (DATABASE SEKOLAH) -->
+    <section class="section pengajar-section" id="pengajar">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">DIREKTORI TENAGA PENDIDIK</span>
+                <h2>Profil Pengajar</h2>
+                <p>Mengenal dewan guru dan tenaga pendidik SMP Negeri 1 Ciasem yang dedikatif & profesional.</p>
+            </div>
+
+            <!-- Search & Filter Bar -->
+            <div class="filter-wrapper center" style="margin-bottom: 2rem;">
+                <input type="text" id="searchTeacher" placeholder="Cari nama pengajar..." style="padding: 0.8rem 1.2rem; border-radius: 20px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.05); color: #fff; width: 100%; max-width: 400px; outline: none; margin-bottom: 1rem;">
+                
+                <div class="filter-container center">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="mIPA">IPA & Math</button>
+                    <button class="filter-btn" data-filter="bahasa">Bahasa</button>
+                    <button class="filter-btn" data-filter="ips">IPS & PKn</button>
+                    <button class="filter-btn" data-filter="pAI">PAI & PJOK</button>
+                    <button class="filter-btn" data-filter="tikSeni">TIK & Seni</button>
+                </div>
+            </div>
+
+            <!-- Grid Pengajar -->
+            <div class="pengajar-grid" id="pengajarGrid">
+                
+                <!-- MATEMATIKA -->
+                <div class="glass-card pengajar-card" data-category="mIPA" data-name="teti susilawati">
+                    <div class="pengajar-info">
+                        <h4>Hj. Dra. Teti Susilawati</h4>
+                        <span class="mapel-badge">Matematika</span>
+                        <p><strong>TTL:</strong> Subang, 12 Juli 1968</p>
+                        <p><strong>Mengajar:</strong> Kelas IX</p>
+                    </div>
+                </div>
+
+                <div class="glass-card pengajar-card" data-category="mIPA" data-name="cepi hilman">
+                    <div class="pengajar-info">
+                        <h4>Cepi Hilman, S.Pd</h4>
+                        <span class="mapel-badge">Matematika</span>
+                        <p><strong>TTL:</strong> Subang, 21 September 1982</p>
+                        <p><strong>Mengajar:</strong> Kelas IX</p>
+                    </div>
+                </div>
+
+                <div class="glass-card pengajar-card" data-category="mIPA" data-name="fitri solihat">
+                    <div class="pengajar-info">
+                        <h4>Fitri Solihat, S.Pd</h4>
+                        <span class="mapel-badge">Matematika</span>
+                        <p><strong>TTL:</strong> Subang, 3 Februari 1993</p>
+                        <p><strong>Mengajar:</strong> Kelas VII & VIII</p>
+                    </div>
+                </div>
+
+                <div class="glass-card pengajar-card" data-category="mIPA" data-name="lilis sugiarti">
+                    <div class="pengajar-info">
+                        <h4>Lilis Sugiarti, S.Pd</h4>
+                        <span class="mapel-badge">Matematika</span>
+                        <p><strong>TTL:</strong> Subang, 16 Agustus 1996</p>
+                        <p><strong>Mengajar:</strong> Kelas VII & IX</p>
+                    </div>
+                </div>
+
+                <!-- BAHASA INGGRIS -->
+                <div class="glass-card pengajar-card" data-category="bahasa" data-name="popon suhartini">
+                    <div class="pengajar-info">
+                        <h4>Dra. Hj. Popon Suhartini</h4>
+                        <span class="mapel-badge">Bahasa Inggris</span>
+                        <p><strong>TTL:</strong> Bandung, 10 Maret 1966</p>
+                    </div>
+                </div>
+
+                <div class="glass-card pengajar-card" data-category="bahasa" data-name="m. abdul latif">
+                    <div class="pengajar-info">
+                        <h4>M. Abdul Latif, S.Pd</h4>
+                        <span class="mapel-badge">Bahasa Inggris</span>
+                        <p><strong>TTL:</strong> Subang, 5 Mei 1988</p>
+                    </div>
+                </div>
+
+                <div class="glass-card pengajar-card" data-category="bahasa" data-name="irmasari nur'afifah">
+                    <div class="pengajar-info">
+                        <h4>Irmasari Nur'afifah, S.Pd</h4>
+                        <span class="mapel-badge">Bahasa Inggris</span>
+                        <p><strong>TTL:</strong> Subang, 12 April 1994</p>
+                    </div>
+                </div>
+
+                <!-- BAHASA INDONESIA -->
+                <div class="glass-card pengajar-card" data-category="bahasa" data-name="aep saepulloh">
+                    <div class="pengajar-info">
+                        <h4>Aep Saepulloh, S.Pd</h4>
+                        <span class="mapel-badge">Bahasa Indonesia</span>
+                        <p><strong>TTL:</strong> Subang, 12 Oktober 1978</p>
+                    </div>
+                </div>
+
+                <div class="glass-card pengajar-card" data-category="bahasa" data-name="eem nurhasanah">
+                    <div class="pengajar-info">
+                        <h4>Eem Nurhasanah, S.Pd</h4>
+                        <span class="mapel-badge">Bahasa Indonesia</span>
+                        <p><strong>TTL:</strong> Subang, 18 September 1981</p>
+                    </div>
+                </div>
+
+                <!-- IPA -->
+                <div class="glass-card pengajar-card" data-category="mIPA" data-name="ema fahriah">
+                    <div class="pengajar-info">
+                        <h4>Ema Fahriah, S.Sos.</h4>
+                        <span class="mapel-badge">IPA</span>
+                        <p><strong>TTL:</strong> Bandung, 4 April 1972</p>
+                        <p><strong>Mengajar:</strong> Kelas VIII & IX</p>
+                    </div>
+                </div>
+
+                <div class="glass-card pengajar-card" data-category="mIPA" data-name="dian rahayu">
+                    <div class="pengajar-info">
+                        <h4>Dian Rahayu, S.Pd.</h4>
+                        <span class="mapel-badge">IPA</span>
+                        <p><strong>TTL:</strong> Subang, 8 Februari 1996</p>
+                        <p><strong>Mengajar:</strong> Kelas VII</p>
+                    </div>
+                </div>
+
+                <!-- IPS & PKN -->
+                <div class="glass-card pengajar-card" data-category="ips" data-name="mamat rohimat">
+                    <div class="pengajar-info">
+                        <h4>Drs. H. Mamat Rohimat</h4>
+                        <span class="mapel-badge">IPS</span>
+                        <p><strong>TTL:</strong> Subang, 11 November 1965</p>
+                    </div>
+                </div>
+
+                <div class="glass-card pengajar-card" data-category="ips" data-name="siti nurbaya">
+                    <div class="pengajar-info">
+                        <h4>Hj. Siti Nurbaya, S.Pd</h4>
+                        <span class="mapel-badge">PKN</span>
+                        <p><strong>TTL:</strong> Subang, 2 Juni 1967</p>
+                    </div>
+                </div>
+
+                <!-- PAI & PJOK -->
+                <div class="glass-card pengajar-card" data-category="pAI" data-name="ahmad fauzi">
+                    <div class="pengajar-info">
+                        <h4>H. Ahmad Fauzi, S.Ag</h4>
+                        <span class="mapel-badge">Pendidikan Agama</span>
+                        <p><strong>TTL:</strong> Subang, 15 Januari 1970</p>
+                    </div>
+                </div>
+
+                <div class="glass-card pengajar-card" data-category="pAI" data-name="sarip hidayatullah">
+                    <div class="pengajar-info">
+                        <h4>Sarip Hidayatullah, S.Pd</h4>
+                        <span class="mapel-badge">PJOK</span>
+                        <p><strong>TTL:</strong> Subang, 17 Agustus 1985</p>
+                    </div>
+                </div>
+
+                <!-- BAHASA SUNDA & SENI -->
+                <div class="glass-card pengajar-card" data-category="tikSeni" data-name="ramon aji nurcahya">
+                    <div class="pengajar-info">
+                        <h4>Ramon Aji Nurcahya, S.Pd.</h4>
+                        <span class="mapel-badge">Bahasa Sunda</span>
+                        <p><strong>Sertifikasi:</strong> Google Certified Educator L1</p>
+                        <p><strong>Alamat:</strong> Dusun Krajan, Ciasem</p>
+                    </div>
+                </div>
+
+                <div class="glass-card pengajar-card" data-category="tikSeni" data-name="amih">
+                    <div class="pengajar-info">
+                        <h4>Amih, S.Pd.</h4>
+                        <span class="mapel-badge">Seni Budaya</span>
+                        <p><strong>Email:</strong> amih5@guru.smp.belajar.id</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: HUB MATA PELAJARAN (SITES DIRECT) -->
+    <section class="section matpel-section" id="matpel">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">MODUL PEMBELAJARAN</span>
+                <h2>Site Mata Pelajaran</h2>
+                <p>Akses cepat menuju modul digital per mata pelajaran di Google Sites.</p>
+            </div>
+
+            <div class="features-grid">
+                <a href="https://sites.google.com/view/smp-negeri-1-ciasem/beranda" target="_blank" rel="noopener noreferrer" class="glass-card feature-card clickable-card">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD54F" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    </div>
+                    <h3>Bahasa Indonesia</h3>
+                    <p>Modul literasi, teks naratif, pidato, dan materi kebahasaan interaktif.</p>
+                    <span class="card-action">Buka Site Matpel →</span>
+                </a>
+
+                <a href="https://sites.google.com/view/smp-negeri-1-ciasem/beranda" target="_blank" rel="noopener noreferrer" class="glass-card feature-card clickable-card">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD54F" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><line x1="2" y1="12" x2="22" y2="12"/></svg>
+                    </div>
+                    <h3>Bahasa Inggris</h3>
+                    <p>Materi grammar, conversation, listening audio, dan modul SpeakSpot.</p>
+                    <span class="card-action">Buka Site Matpel →</span>
+                </a>
+
+                <a href="https://sites.google.com/view/smp-negeri-1-ciasem/beranda" target="_blank" rel="noopener noreferrer" class="glass-card feature-card clickable-card">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD54F" stroke-width="2"><path d="M10 2v7.31M14 9.3V19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"/></svg>
+                    </div>
+                    <h3>IPA & Biologi</h3>
+                    <p>Eksperimen sains, modul tata surya, dan pemantauan ekosistem e-Garden.</p>
+                    <span class="card-action">Buka Site Matpel →</span>
+                </a>
+
+                <a href="https://sites.google.com/view/smp-negeri-1-ciasem/beranda" target="_blank" rel="noopener noreferrer" class="glass-card feature-card clickable-card">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD54F" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                    </div>
+                    <h3>Matematika</h3>
+                    <p>Latihan aljabar, geometri, bangun ruang, dan simulasi soal interaktif.</p>
+                    <span class="card-action">Buka Site Matpel →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: MODUL EKOSISTEM UTAMA (6 KARTU RESMI) -->
+    <section class="section features-section" id="ekosistem">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-tag">CORE ARCHITECTURE</span>
+                <h2>Ekosistem Utama SCALES</h2>
+                <p>Akses langsung ke seluruh layanan unggulan Google Sites SMPN 1 Ciasem.</p>
+            </div>
+
+            <div class="features-grid">
+                
+                <!-- 1. Digital Learning -->
+                <a href="https://sites.google.com/view/smp-negeri-1-ciasem/beranda" target="_blank" rel="noopener noreferrer" class="glass-card feature-card clickable-card">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD54F" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                    <h3>Digital Learning</h3>
+                    <p>Platform pembelajaran awan terpadu untuk materi, tugas, dan modul siswa.</p>
+                    <span class="card-action">Buka Google Site →</span>
+                </a>
+
+                <!-- 2. SpeakSpot -->
+                <a href="https://sites.google.com/guru.smp.belajar.id/zeinzone-id/explore-speakspot/library-speakspot" target="_blank" rel="noopener noreferrer" class="glass-card feature-card clickable-card">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD54F" stroke-width="2"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
+                    </div>
+                    <h3>SpeakSpot</h3>
+                    <p>Wadah interaktif peningkatan kemampuan *public speaking* dan debat siswa.</p>
+                    <span class="card-action">Buka Google Site →</span>
+                </a>
+
+                <!-- 3. BK Digital -->
+                <a href="https://sites.google.com/view/smp-negeri-1-ciasem/bimbingan-konseling-digital?authuser=0" target="_blank" rel="noopener noreferrer" class="glass-card feature-card clickable-card">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD54F" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    </div>
+                    <h3>BK Digital</h3>
+                    <p>Layanan konseling digital rahasia, konseling karir, dan bimbingan perkembangan.</p>
+                    <span class="card-action">Buka Google Site →</span>
+                </a>
+
+                <!-- 4. e-Garden -->
+                <a href="https://sites.google.com/view/smp-negeri-1-ciasem/taman-digital?authuser=0" target="_blank" rel="noopener noreferrer" class="glass-card feature-card clickable-card">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD54F" stroke-width="2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+                    </div>
+                    <h3>e-Garden</h3>
+                    <p>Inovasi taman digital sekolah berbasis edukasi lingkungan dan catatan hayati.</p>
+                    <span class="card-action">Buka Google Site →</span>
+                </a>
+
+                <!-- 5. Digital Library -->
+                <a href="https://sites.google.com/view/smp-negeri-1-ciasem/perpustakaan-digital?authuser=0" target="_blank" rel="noopener noreferrer" class="glass-card feature-card clickable-card">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD54F" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    </div>
+                    <h3>Digital Library</h3>
+                    <p>Akses ribuan buku elektronik, jurnal bacaan, dan materi literasi digital.</p>
+                    <span class="card-action">Buka Google Site →</span>
+                </a>
+
+                <!-- 6. AI Learning -->
+                <a href="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer" class="glass-card feature-card clickable-card">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFD54F" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <h3>AI Learning</h3>
+                    <p>Asisten AI Gemini pintar untuk mendampingi cara belajar eksploratif siswa.</p>
+                    <span class="card-action">Buka Gemini AI →</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="glass-panel footer-glass">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <span class="brand-text">SCALES</span>
+                        <p>SpensaCiS Collaborative and Engaging Learning Environment System.</p>
+                        <p class="school-name">SMP Negeri 1 Ciasem</p>
+                    </div>
+                    <div class="footer-contact">
+                        <h4>ALAMAT SEKOLAH</h4>
+                        <p>Jl. Raya Ciasem, Subang, Jawa Barat, Indonesia</p>
+                        <p>Integrated with Google Workspace for Education</p>
+                    </div>
+                    <div class="footer-actions">
+                        <a href="https://sites.google.com/view/smp-negeri-1-ciasem/beranda" target="_blank" rel="noopener noreferrer" class="btn btn-gold full-width">Kunjungi Google Site Utama</a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 SCALES - SMP Negeri 1 Ciasem. Built for Future Intelligence.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Interactivity -->
+    <script>
+        // Preloader
+        window.addEventListener('load', () => {
+            const preloader = document.getElementById('preloader');
+            const progress = document.getElementById('loaderProgress');
+            progress.style.width = '100%';
+            
+            setTimeout(() => {
+                preloader.classList.add('hidden');
+            }, 600);
+        });
+
+        // Mouse Glow
+        const mouseGlow = document.getElementById('mouseGlow');
+        document.addEventListener('mousemove', (e) => {
+            mouseGlow.style.transform = `translate3d(${e.clientX}px, ${e.clientY}px, 0)`;
+        });
+
+        // Navbar Scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile Nav Toggle
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navLinks = document.getElementById('navLinks');
+        mobileToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Filter & Search Pengajar
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const pengajarCards = document.querySelectorAll('.pengajar-card');
+        const searchInput = document.getElementById('searchTeacher');
+
+        function filterAndSearch() {
+            const searchTerm = searchInput ? searchInput.value.toLowerCase().trim() : '';
+            const activeCategory = document.querySelector('.filter-btn.active').getAttribute('data-filter');
+
+            pengajarCards.forEach(card => {
+                const cardName = card.getAttribute('data-name') || '';
+                const cardCategory = card.getAttribute('data-category') || '';
+
+                const matchesCategory = (activeCategory === 'all' || cardCategory === activeCategory);
+                const matchesSearch = cardName.includes(searchTerm);
+
+                if (matchesCategory && matchesSearch) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                filterAndSearch();
+            });
+        });
+
+        if (searchInput) {
+            searchInput.addEventListener('input', filterAndSearch);
+        }
+    </script>
+</body>
+</html>
